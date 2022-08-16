@@ -1,0 +1,28 @@
+{
+  "name": "mini-nodemon",
+  "version": "1.0.0",
+  "description": "simple monitor script for nodejs.app",
+  "main": "index.js",
+  "type": "module",
+  "bin": "./bin/index.js",
+  "files": [
+    "bin",
+    "package.json"
+  ],
+  "scripts": {
+    "start": "node ./bin/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "monitor",
+    "restart",
+    "autoload"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "chokidar": "^3.5.3"
+  }
+}
