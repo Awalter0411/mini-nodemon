@@ -5,6 +5,7 @@
   "main": "index.js",
   "type": "module",
   "bin": "./bin/index.js",
+  "homepage": "https://github.com/b1t010/mini-nodemon",
   "files": [
     "bin",
     "package.json"
@@ -19,8 +20,8 @@
     "restart",
     "autoload"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": "b1t010",
+  "license": "MIT",
   "dependencies": {
     "chalk": "^5.0.1",
     "chokidar": "^3.5.3"
